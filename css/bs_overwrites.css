@@ -1,0 +1,24 @@
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    border: 2px solid #000;
+    border-bottom-color: rgb(255, 255, 255);
+    margin-bottom: -2px;
+    -moz-box-shadow: 0px 10px 0px -2px rgb(255, 255, 255);
+    -webkit-box-shadow: 0px 10px 0px -2px rgb(255, 255, 255);
+    box-shadow: 0px 10px 0px -2px rgb(255, 255, 255);
+}
+
+.has-error .form-control {
+    border: 2px solid #a94442;
+}
+
+select#imgLayout {
+    height: 57px;
+    font-size: 23px;
+}
+
+.row.view-pager {
+    display: block!important;
+}
+.row.view-filter {
+    display: block!important;
+}
